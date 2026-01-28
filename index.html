@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maria Clara | Front-End Dev</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <h1 class="logo">Maria Clara</h1>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <nav>
+      <ul class="menu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <img src="img/clara foto.jpg" alt="Foto de Perfil" class="hero-img">
+      <span class="badge">✨ Disponível para novos projetos</span>
+      <h2>Maria Clara Silva dos Santos</h2>
+      <p>Desenvolvedora Web Front-End</p>
+      <a href="#projetos" class="btn">Ver Projetos</a>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="section">
+    <h2 class="section-title">Sobre Mim</h2>
+    <p>Olá! Sou <strong>Maria Clara Silva dos Santos</strong>, uma desenvolvedora web front-end apaixonada por criar experiências digitais que unem funcionalidade e estética.
+
+    Atualmente, estou cursando Análise e Desenvolvimento de Sistemas, onde aprofundo meus conhecimentos em programação e desenvolvimento de software. Minha formação técnica em Administração me proporcionou uma visão estratégica e organizada, habilidades que aplico diariamente em meus projetos.
+
+    Acredito que o front-end é onde a tecnologia encontra o usuário, e por isso me dedico a criar <strong>interfaces intuitivas, responsivas e visualmente agradáveis</strong>. Cada projeto é uma oportunidade de transformar ideias em realidade digital.</p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>🎓 Formação</h3>
+        <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
+      </div>
+
+      <div class="card">
+        <h3>📊 Técnico</h3>
+        <p>Formada em Administração</p>
+      </div>
+
+      <div class="card">
+        <h3>💻 Foco</h3>
+        <p>Desenvolvimento Web Front-End</p>
+      </div>
+
+      <div class="card">
+        <h3>❤️ Paixão</h3>
+        <p>Tecnologia e Design</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Habilidades -->
+  <section id="habilidades" class="section light">
+    <h2 class="section-title">Minhas Habilidades</h2>
+    <p class="section-subtitle">Tecnologias e competências que utilizo</p>
+
+    <div class="skills">
+      <div class="skill">
+        <span>HTML5</span>
+        <div class="bar"><div style="width:80%"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>CSS3</span>
+        <div class="bar"><div style="width:75%"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>JavaScript</span>
+        <div class="bar"><div style="width:50%"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Design Responsivo</span>
+        <div class="bar"><div style="width:78%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projetos" class="section">
+    <h2 class="section-title">Projetos em Destaque</h2>
+
+    <div class="projects">
+      <div class="project-card">
+        <h3>Pizzaria Delícia</h3>
+        <p>Landing page interativa com montagem de pedido personalizada.</p>
+        <a href="https://clarasilva123.github.io/Projeto-pizzaria/" target="_blank" class="project-link">Ver projeto ➜</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Controle de Produtos e Lucros</h3>
+        <p>Aplicação local para controle financeiro e relatórios.</p>
+        <a href="#" target="_blank" class="project-link">Ver projeto ➜</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Base de Conhecimento</h3>
+        <p>Site com barra de pesquisa para linguagens e soluções.</p>
+        <a href=" https://clarasilva123.github.io/Base-de-Conhecimento/" target="_blank" class="project-link">Ver projeto ➜</a>
+      </div>
+
+      <div class="project-card">
+        <h3>SuaEmpresa</h3>
+        <p>Site institucional responsivo com design limpo.</p>
+        <a href="https://clarasilva123.github.io/Site-Institucional-Moderno/" target="_blank" class="project-link">Ver projeto ➜</a>
+      </div>
+      <div class="project-card">
+        <h3>Calculadora Simples</h3>
+        <p>E um projeto web desenvolvido com HTML, CSS e JavaScript, que implementa toda a lógica de cálculo no front-end.</p>
+        <a href="https://clarasilva123.github.io/Calculadora-simples/" target="_blank" class="project-link">Ver projeto ➜</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="section light">
+  <h2 class="section-title">Entre em Contato</h2>
+  <p class="section-subtitle">
+    Me envie uma mensagem diretamente pelo WhatsApp
+  </p>
+
+  <form class="contact-form">
+    <input type="text" id="nome" placeholder="Seu nome" required>
+    <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+
+    <button type="submit" class="btn">
+      Enviar no WhatsApp
+    </button>
+  </form>
+
+  <div class="contact-links">
+    <a href="mailto:clarasillva.web">📧 clarasillva.web@email.com</a>
+    <a href="https://github.com/Clarasilva123" target="_blank">💻 GitHub</a>
+    
+  </div>
+</section>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Maria Clara Silva dos Santos. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+    function toggleMenu() {
+      const menu = document.querySelector('.menu');
+      menu.classList.toggle('active');
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target); // Anima apenas uma vez
+        }
+      });
+    }, { threshold: 0.3 });
+
+    document.querySelectorAll('.section').forEach(section => observer.observe(section));
+  </script>
+</body>
+</html>
